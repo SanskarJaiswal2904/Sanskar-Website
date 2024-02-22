@@ -97,6 +97,21 @@
             </div>
 
             <div class="footer-text">© 2024 Sanskar Jaiswal. All rights reserved.</div>
+            <div class="footer-text">
+                    <p>Total Visitors: <span id="counter">0</span></p>
+
+                    <script>
+                        // Load current count from local storage or set to 0 if not found
+                        let count = parseInt(localStorage.getItem('counter')) || 0;
+
+                        // Update the counter display
+                        document.getElementById('counter').textContent = count;
+
+                        // Increment the counter on each visit
+                        count++;
+                        localStorage.setItem('counter', count);
+                    </script>
+            </div>
         </div>
     </footer>
 </body>

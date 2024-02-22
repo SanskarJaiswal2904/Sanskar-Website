@@ -164,7 +164,7 @@
             </div>
         </section>
 
-        <div class="aboutAuthor" style="margin-top: 200px; margin-bottom: 5px;">
+        <div class="aboutAuthor" style="margin-top: 50px; margin-bottom: 5px;">
             <h1>G-MAIL</h1>
             <h2 style="font-style: normal; color: rgb(33, 29, 29);">sanskarjaiswal2904@gmail.com</h2>
         </div>
@@ -194,6 +194,23 @@
             </div>
 
             <div class="footer-text">© 2024 Sanskar Jaiswal. All rights reserved.</div>
+
+            <div class="footer-text">
+                <p>Total Visitors: <span id="counter">0</span></p>
+
+                <script>
+                    // Load current count from local storage or set to 0 if not found
+                    let count = parseInt(localStorage.getItem('counter')) || 0;
+
+                    // Update the counter display
+                    document.getElementById('counter').textContent = count;
+
+                    // Increment the counter on each visit
+                    count++;
+                    localStorage.setItem('counter', count);
+                </script>
+        </div>
+
         </div>
     </footer>
 </body>
