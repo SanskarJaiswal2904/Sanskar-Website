@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-wrapper {
+    margin: 10px;
+    position: relative; /* Allows positioning of loading animation */
+}
+
+.image-wrapper img {
+    width: 150px; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+}
+
+.loading-animation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 1s forwards; /* Fade in animation */
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
