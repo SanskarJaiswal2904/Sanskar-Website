@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,10 +11,8 @@
 
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/hoverAnimation.css">
-
     <link rel="stylesheet" href="style/buttonGlow.css">
     <link rel="stylesheet" href="style/contactMe.css">
-    <!-- <link rel="stylesheet" href="styletry.css"> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
@@ -23,6 +22,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
+
 <body>
     <header>
         <nav class="horizontalnav">
@@ -45,7 +45,7 @@
                         <button class="glow-on-hover">Contact Me</button>
                     </a>
                 </li>
-                
+
             </ul>
         </nav>
     </header>
@@ -54,23 +54,30 @@
 
 
         <div class="containerCM" style="margin: 20px;">
-            <a href="https://leetcode.com/Sanskar_Jaiswal/" class="big-button" target="_blank"><i class="fas fa-code iconCM"></i> LeetCode</a>
-            <a href="https://auth.geeksforgeeks.org/user/sanskarjaiswal2904" class="big-button" target="_blank"><i class="fas fa-laptop-code iconCM"></i> Geeks For Geeks</a>
-            
+            <a href="https://leetcode.com/Sanskar_Jaiswal/" class="big-button" target="_blank"><i
+                    class="fas fa-code iconCM"></i> LeetCode</a>
+            <a href="https://auth.geeksforgeeks.org/user/sanskarjaiswal2904" class="big-button" target="_blank"><i
+                    class="fas fa-laptop-code iconCM"></i> Geeks For Geeks</a>
 
 
-            <a href="https://drive.google.com/file/d/1mBdOP5ThYIj7xxZoSHYZSVJlJtywfbUP/view?usp=sharing" class="big-button" target="_blank" style="background-color: black;"><i class="far fa-file-pdf iconCM"></i> Resume</a>
+
+            <a href="https://drive.google.com/file/d/1mBdOP5ThYIj7xxZoSHYZSVJlJtywfbUP/view?usp=sharing"
+                class="big-button" target="_blank" style="background-color: black;"><i
+                    class="far fa-file-pdf iconCM"></i> Resume</a>
 
 
-            <a href="https://www.linkedin.com/in/sanskkkkar/" class="big-button" target="_blank"><i class="fab fa-linkedin iconCM" ></i> LinkedIn</a>
-            <a href="https://github.com/SanskarJaiswal2904" class="big-button" target="_blank"><i class="fab fa-github iconCM" ></i> GitHub</a> <!-- GitHub link -->
+            <a href="https://www.linkedin.com/in/sanskkkkar/" class="big-button" target="_blank"><i
+                    class="fab fa-linkedin iconCM"></i> LinkedIn</a>
+            <a href="https://github.com/SanskarJaiswal2904" class="big-button" target="_blank"><i
+                    class="fab fa-github iconCM"></i> GitHub</a>
+
         </div>
 
         <div class="aboutAuthor" style="margin-bottom: 5px;">
             <h1>G-MAIL</h1>
             <h2 style="font-style: normal; color: rgb(33, 29, 29);">sanskarjaiswal2904@gmail.com</h2>
         </div>
-        
+
     </main>
 
 
@@ -86,40 +93,46 @@
             </div>
 
             <div class="footer-social">
-                <a href="https://www.facebook.com/" target="_blank"  title="Facebook"><i class="fab fa-facebook"></i></a>
-                <a href="https://twitter.com/_Sanskkkkar" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/sanskkkkar/?hl=en" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/sanskkkkar/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/SansKar.jaiswal.2904" target="_blank" title="Facebook"><i
+                        class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/_Sanskkkkar" target="_blank" title="Twitter"><i
+                        class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/sanskkkkar/?hl=en" target="_blank" title="Instagram"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/sanskkkkar/" target="_blank" title="LinkedIn"><i
+                        class="fab fa-linkedin"></i></a>
                 <a href="contactMe.html" target="_blank" title="LeetCode"><i class="fas fa-code"></i></a>
-                <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=sanskarjaiswal2904@gmail.com&tf=1" target="_blank" title="Gmail"><i class="fas fa-envelope"></i></a>
+                <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=sanskarjaiswal2904@gmail.com&tf=1"
+                    target="_blank" title="Gmail"><i class="fas fa-envelope"></i></a>
                 <a href="contactMe.html" target="_blank" title="Resume"><i class="far fa-file-pdf"></i></a>
 
             </div>
 
             <div class="footer-text">© 2024 Sanskar Jaiswal. All rights reserved.</div>
             <div class="footer-text">
-                    <p>Total Visitors: <span id="counter">0</span></p>
+                <p>Total Visitors: <span id="counter">0</span></p>
 
-                    <script>
-                        // Load current count from local storage or set to 0 if not found
-                        let count = parseInt(localStorage.getItem('counter')) || 0;
+                <script>
+                    // Load current count from local storage or set to 0 if not found
+                    let count = parseInt(localStorage.getItem('counter')) || 0;
 
-                        // Update the counter display
-                        document.getElementById('counter').textContent = count;
+                    // Update the counter display
+                    document.getElementById('counter').textContent = count;
 
-                        // Increment the counter on each visit
-                        count++;
-                        localStorage.setItem('counter', count);
-                    </script>
+                    // Increment the counter on each visit
+                    count++;
+                    localStorage.setItem('counter', count);
+                </script>
             </div>
         </div>
     </footer>
 </body>
 
 
-    <script>
-        function openResume() {
-            window.open('file:///C:/Users/SansKarASUS/OneDrive/Desktop/Mern%20Stack/CSS/Personal%20Website%20-%20Sanskar/resOfWebsite/samplepdf.pdf', '_blank');
-        }
-    </script>
+<script>
+    function openResume() {
+        window.open('file:///C:/Users/SansKarASUS/OneDrive/Desktop/Mern%20Stack/CSS/Personal%20Website%20-%20Sanskar/resOfWebsite/samplepdf.pdf', '_blank');
+    }
+</script>
+
 </html>
