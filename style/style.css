@@ -5,12 +5,18 @@ body {
     text-align: center;
 
 }
+header{
+    height: auto;
+}
 
 .horizontalnav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: #9cd1f4
+    background-color: #9cd1f4;
+    position: sticky;
+    top: 0;
+    margin-bottom: 10px;
 }
 
 .horizontalnav ul li {
@@ -55,26 +61,27 @@ body {
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
+    z-index: 10;
 }
 
 .social-button {
     margin-bottom: 10px;
-    background-color: white;
+    background-color: #9cd1f4;
     /* LinkedIn blue */
-    color: blue;
+    color: black;
     cursor: pointer;
-    border: 1px solid white;
+    border: 1px solid #9cd1f4;
     margin-right: 10px;
     width: 50px;
     /* Adjust width and height as needed */
     height: 50px;
-    border-radius: 50%;
+    border-radius: 40%;
     /* Makes the button circular */
 
 }
 
 .social-button:hover {
-    background-color: blue;
+    background-color: #47adf2;
     color: white;
 }
 
