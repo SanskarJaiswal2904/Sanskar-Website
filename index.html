@@ -1,231 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <meta name="viewport" content="width=1500, initial-scale=1.0" /> Set width to a larger value -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Sanskar Jaiswal</title>
 
-    <link rel="icon" href="resOfWebsite/sanskarTitle.ico" type="image/x-icon">
+    <link rel="icon" href="resOfWebsite/sanskarTitle.ico" type="image/x-icon" />
 
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/hoverAnimation.css" />
+    <link rel="stylesheet" href="style/buttonGlow.css" />
 
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/hoverAnimation.css">
-    <link rel="stylesheet" href="style/buttonGlow.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
 
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-xxxxxx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
-
-<body>
+  <body>
     <header>
-        <nav class="horizontalnav">
-            <div class="button center-text" id="button-5">
-                <div id="translate"></div>
-                <a href="index.html" target="_main" title="Home">Welcome to Sanskar Jaiswal Website </a>
-            </div>
-            <ul>
-                <li id="homeid" title="Home"
-                    style="color: blue; text-decoration: underline; text-decoration-color: red;">
-                    <a href="index.html" target="_main" style="color: inherit;">Home</a>
-                </li>
-                <li id="aboutmeid">
-                    <a href="contactMe.html" target="_main" style="color: inherit;">About me</a>
-                </li>
-                <li id="moreid">
-                    <a href="contactMe.html" target="_main" style="color: inherit;">More</a>
-                </li>
-                <li id="resumeid">
-                    <a href="contactMe.html" target="_main" style="color: inherit;">
-                        <button class="glow-on-hover">Resume</button>
-                    </a>
-                </li>
-                <li id="contactmeid">
-                    <a href="contactMe.html" target="_main" style="color: inherit;">
-                        <button class="glow-on-hover">Contact Me</button>
-                    </a>
-                </li>
-
-            </ul>
-        </nav>
+      <nav class="horizontalnav">
+        <div class="button center-text" id="button-5">
+          <div id="translate"></div>
+          <a href="index.html" target="_main" title="Home"
+            >Welcome to Sanskar Jaiswal Website
+          </a>
+        </div>
+        <ul>
+          <li id="homeid" title="Home">
+            <a href="index.html" target="_main" style="color: inherit"
+              ><i class="fa-solid fa-house"></i> Home</a
+            >
+          </li>
+          <li id="aboutmeid">
+            <a href="contactMe.html" target="_main" style="color: inherit">
+              <i class="fa-solid fa-book"></i> About me</a
+            >
+          </li>
+          <li id="moreid">
+            <a href="contactMe.html" target="_main" style="color: inherit"
+              ><i class="fa-solid fa-info"></i> More</a
+            >
+          </li>
+          <li id="resumeid">
+            <a href="contactMe.html" target="_main" style="color: inherit">
+              <button class="glow-on-hover">
+                <i class="far fa-file-pdf iconCM"></i> Resume
+              </button>
+            </a>
+          </li>
+          <li id="contactmeid">
+            <a href="contactMe.html" target="_main" style="color: inherit">
+              <button class="glow-on-hover">
+                <i class="fa-regular fa-address-book"></i> Contact Me
+              </button>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
+      <div class="fixed-sidebar">
+        <a
+          href="https://www.facebook.com/SansKar.jaiswal.2904"
+          target="_main"
+          title="Facebook"
+        >
+          <button class="social-button">
+            <i class="fab fa-facebook-f"></i>
+          </button>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/sanskkkkar/"
+          title="LinkedIn"
+          target="_main"
+        >
+          <button class="social-button">
+            <i class="fab fa-linkedin"></i>
+          </button>
+        </a>
+        <a href="contactMe.html" target="_main" title="Resume">
+          <button class="social-button">
+            <i class="far fa-file-pdf"></i>
+          </button>
+        </a>
+        <a
+          href="https://twitter.com/_Sanskkkkar"
+          target="_main"
+          title="Twitter"
+        >
+          <button class="social-button">
+            <i class="fab fa-twitter"></i>
+          </button>
+        </a>
 
-        <div class="fixed-sidebar">
-            <a href="https://www.facebook.com/SansKar.jaiswal.2904" target="_main" title="Facebook">
-                <button class="social-button">
-                    <i class="fab fa-facebook-f"></i>
+        <a href="contactMe.html" target="_main" title="Code">
+          <button class="social-button">
+            <i class="fas fa-code"></i>
+          </button>
+        </a>
+        <a
+          href="https://github.com/SanskarJaiswal2904"
+          title="GitHub"
+          target="_main"
+        >
+          <button class="social-button">
+            <i class="fab fa-github"></i>
+          </button>
+        </a>
+        <a
+          href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=sanskarjaiswal2904@gmail.com&tf=1"
+          target="_main"
+          title="Gmail"
+        >
+          <button class="social-button">
+            <i class="fas fa-envelope"></i>
+          </button>
+        </a>
+      </div>
 
-                </button>
-            </a>
-            <a href="https://www.linkedin.com/in/sanskkkkar/" title="LinkedIn" target="_main">
-                <button class="social-button">
-                    <i class="fab fa-linkedin"></i>
+      <!-- <img style="text-align: center;width: 100%; height: 50%;" src="resOfWebsite/aestheticImg0.jpg" alt="" style="width: 980px; height: 1103px; object-fit: cover; object-position: 50% 50%;" width="1920" height="1920" fetchpriority="high"> -->
 
-                </button>
-            </a>
-            <a href="contactMe.html" target="_main" title="Resume">
-                <button class="social-button">
-                    <i class="far fa-file-pdf"></i>
+      <div class="image-container">
+        <a href="#">
+          <!-- <img src="https://source.unsplash.com/1600x900/?computer,table,aesthetic,technology" alt="Nature Landscape"> -->
+          <img src="resOfWebsite/aestheticImg0.jpg" alt="Nature Landscape" />
+        </a>
+        <!-- <img src="style/scenary.jpg" alt="scenary"> -->
+      </div>
 
-                </button>
-            </a>
-            <a href="https://twitter.com/_Sanskkkkar" target="_main" title="Twitter">
-                <button class="social-button">
-                    <i class="fab fa-twitter"></i>
-
-                </button>
-            </a>
-
-            <a href="contactMe.html" target="_main" title="Code">
-                <button class="social-button">
-                    <i class="fas fa-code"></i>
-                </button>
-            </a>
-            <a href="https://github.com/SanskarJaiswal2904" title="GitHub" target="_main">
-                <button class="social-button">
-                    <i class="fab fa-github"></i>
-
-                </button>
-            </a>
-            <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=sanskarjaiswal2904@gmail.com&tf=1" target="_main"
-                title="Gmail">
-                <button class="social-button">
-                    <i class="fas fa-envelope"></i>
-                </button>
-            </a>
+      <div class="aboutAuthor">
+        <h1>HELLO</h1>
+        <div class="container">
+          <img src="resOfWebsite/sanskar4.png" alt="author.png" />
+          <div class="vertical-line"></div>
+          <img src="resOfWebsite/sanskarIntro.jpeg" alt="author.png" />
         </div>
+      </div>
 
-        <!-- <img style="text-align: center;width: 100%; height: 50%;" src="resOfWebsite/aestheticImg0.jpg" alt="" style="width: 980px; height: 1103px; object-fit: cover; object-position: 50% 50%;" width="1920" height="1920" fetchpriority="high"> -->
+      <div class="aboutAuthor" style="margin-top: 200px; margin-bottom: 5px">
+        <h1>COLLEGUE FEEDBACK</h1>
+      </div>
 
-        <div class="image-container">
-            <a href="#">
-                <!-- <img src="https://source.unsplash.com/1600x900/?computer,table,aesthetic,technology" alt="Nature Landscape"> -->
-                <img src="resOfWebsite/aestheticImg0.jpg" alt="Nature Landscape">
-            </a>
-            <!-- <img src="style/scenary.jpg" alt="scenary"> -->
-        </div>
-
-
-
-        <div class="aboutAuthor">
-            <h1>HELLO</h1>
-            <div class="container">
-                <img src="resOfWebsite/sanskar4.png" alt="author.png">
-                <div class="vertical-line"></div>
-                <img src="resOfWebsite/sanskarIntro.jpeg" alt="author.png">
+      <section class="main-section">
+        <div class="container">
+          <div class="reviews">
+            <!-- Random Reviews -->
+            <div class="review" title="Kamya Lala">
+              <p>
+                "Sanskar is simply exceptional! His dedication to his craft is
+                inspiring, and his ability to tackle even the most challenging
+                tasks with ease is truly remarkable. Always willing to lend a
+                helping hand and share his expertise, Sanskar brings positivity
+                and enthusiasm to our team every single day. We're incredibly
+                fortunate to have him as a colleague, and his contributions
+                never fail to leave a lasting impact. Keep shining, Sanskar!"
+              </p>
+              <p class="author">
+                <a
+                  href="https://www.linkedin.com/in/kamya-lala-04a41a231?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5R5BSxsvS0uvoLbYcu5Oeg%3D%3D"
+                  target="_main"
+                  >- Kamya Lala <i class="fa-brands fa-linkedin"></i></a
+                >
+              </p>
             </div>
-        </div>
-
-        <div class="aboutAuthor" style="margin-top: 200px; margin-bottom: 5px;">
-            <h1>COLLEGUE FEEDBACK</h1>
-        </div>
-
-        <section class="main-section">
-            <div class="container">
-
-
-                <div class="reviews">
-                    <!-- Random Reviews -->
-                    <div class="review" title="Kamya Lala">
-                        <p>"Sanskar is simply exceptional! His dedication to his craft is inspiring, and his ability to
-                            tackle even the most challenging tasks with ease is truly remarkable. Always willing to lend
-                            a helping hand and share his expertise, Sanskar brings positivity and enthusiasm to our team
-                            every single day. We're incredibly fortunate to have him as a colleague, and his
-                            contributions never fail to leave a lasting impact. Keep shining, Sanskar!"</p>
-                        <p class="author"><a
-                                href="https://www.linkedin.com/in/kamya-lala-04a41a231?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5R5BSxsvS0uvoLbYcu5Oeg%3D%3D"
-                                target="_main">- Kamya Lala</a></p>
-                    </div>
-                    <div class="review" title="Shubham Kumar Singh">
-                        <p>"Sanskar is a true asset to our team. His passion for innovation and relentless pursuit of
-                            excellence set him apart. Whether it's diving deep into complex problems or offering
-                            invaluable insights, Sanskar's expertise and positivity never cease to amaze us. His
-                            collaborative spirit and unwavering dedication make him a joy to work with, and his presence
-                            elevates our collective success. Here's to Sanskar – a true standout among colleagues!"</p>
-                        <p class="author"><a
-                                href="https://www.linkedin.com/in/shubham-kumar-singh-356427206?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B10dYTrGsSryWsvGM3vgfmw%3D%3D"
-                                target="_main">- Shubham Kumar Singh</a></p>
-                    </div>
-                    <div class="review" title="Aryan Saha">
-                        <p>"Sanskar is the epitome of excellence. His unwavering commitment to quality and relentless
-                            drive for improvement inspire everyone around him. With a keen eye for detail and a creative
-                            approach to problem-solving, Sanskar consistently delivers outstanding results."</p>
-                        <p class="author"><a
-                                href="https://www.linkedin.com/in/aryan-saha-0a61a3215?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5YGt%2FiUqQZG3sgAs%2B%2F9Jag%3D%3D"
-                                target="_main">- Aryan Saha</a></p>
-                    </div>
-                </div>
+            <div class="review" title="Shubham Kumar Singh">
+              <p>
+                "Sanskar is a true asset to our team. His passion for innovation
+                and relentless pursuit of excellence set him apart. Whether it's
+                diving deep into complex problems or offering invaluable
+                insights, Sanskar's expertise and positivity never cease to
+                amaze us. His collaborative spirit and unwavering dedication
+                make him a joy to work with, and his presence elevates our
+                collective success. Here's to Sanskar – a true standout among
+                colleagues!"
+              </p>
+              <p class="author">
+                <a
+                  href="https://www.linkedin.com/in/shubham-kumar-singh-356427206?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B10dYTrGsSryWsvGM3vgfmw%3D%3D"
+                  target="_main"
+                  >- Shubham Kumar Singh <i class="fa-brands fa-linkedin"></i></a
+                >
+              </p>
             </div>
-        </section>
-
-        <div class="aboutAuthor" style="margin-top: 50px; margin-bottom: 5px;">
-            <h1>G-MAIL</h1>
-            <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=sanskarjaiswal2904@gmail.com&tf=1" target="_main">
-                <h2 style="font-style: normal; color: rgb(33, 29, 29);">sanskarjaiswal2904@gmail.com</h2>
-            </a>
+            <div class="review" title="Aryan Saha">
+              <p>
+                "Sanskar is the epitome of excellence. His unwavering commitment
+                to quality and relentless drive for improvement inspire everyone
+                around him. With a keen eye for detail and a creative approach
+                to problem-solving, Sanskar consistently delivers outstanding
+                results."
+              </p>
+              <p class="author">
+                <a
+                  href="https://www.linkedin.com/in/aryan-saha-0a61a3215?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5YGt%2FiUqQZG3sgAs%2B%2F9Jag%3D%3D"
+                  target="_main"
+                  >- Aryan Saha <i class="fa-brands fa-linkedin"></i></a
+                >
+              </p>
+            </div>
+          </div>
         </div>
+      </section>
 
-
-
+      <div class="aboutAuthor" style="margin-top: 50px; margin-bottom: 5px">
+        <a
+          href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=sanskarjaiswal2904@gmail.com&tf=1"
+          target="_main"
+        >
+        <h1><i class="fa-regular fa-envelope"></i> G-MAIL</h1>
+        
+          <h2 style="font-style: normal; color: rgb(33, 29, 29)">
+            sanskarjaiswal2904@gmail.com
+          </h2>
+        </a>
+      </div>
     </main>
     <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-logo">© 2024 by Sanskar Jaiswal</div>
-            <div class="footer-links">
-                <a href="index.html" style="font-weight: bold;" title="Home" target="_main">Home</a>
-                <a href="contactMe.html" target="_main">About me</a>
-                <a href="contactMe.html" target="_main">More</a>
-                <a href="contactMe.html" target="_main">Contact Me</a>
-                <a href="contactMe.html" target="_main">Resume</a>
-            </div>
-
-            <div class="footer-social">
-                <a href="https://www.facebook.com/SansKar.jaiswal.2904" target="_main" title="Facebook"><i
-                        class="fab fa-facebook"></i></a>
-                <a href="https://twitter.com/_Sanskkkkar" target="_main" title="Twitter"><i
-                        class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/sanskkkkar/?hl=en" target="_main" title="Instagram"><i
-                        class="fab fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/sanskkkkar/" target="_main" title="LinkedIn"><i
-                        class="fab fa-linkedin"></i></a>
-                <a href="contactMe.html" target="_main" title="Code"><i class="fas fa-code"></i></a>
-                <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=sanskarjaiswal2904@gmail.com&tf=1"
-                    target="_main" title="Gmail"><i class="fas fa-envelope"></i></a>
-                <a href="https://github.com/SanskarJaiswal2904" target="_main" title="GitHub"><i
-                        class="fab fa-github"></i></a>
-                <a href="contactMe.html" target="_main" title="Resume"><i class="far fa-file-pdf"></i></a>
-            </div>
-
-            <div class="footer-text">© 2024 Sanskar Jaiswal. All rights reserved.</div>
-
-            <div class="footer-text">
-                <p>Total Visitors: <span id="counter">0</span></p>
-
-                <script>
-                    // Load current count from local storage or set to 0 if not found
-                    let count = parseInt(localStorage.getItem('counter')) || 0;
-
-                    // Update the counter display
-                    document.getElementById('counter').textContent = count;
-
-                    // Increment the counter on each visit
-                    count++;
-                    localStorage.setItem('counter', count);
-                </script>
-            </div>
-
+      <div class="footer-content">
+        <div class="footer-logo">© 2024 by Sanskar Jaiswal</div>
+        <div class="footer-links">
+          <a
+            href="index.html"
+            style="font-weight: bold"
+            title="Home"
+            target="_main"
+            >Home</a
+          >
+          <a href="contactMe.html" target="_main">About me</a>
+          <a href="contactMe.html" target="_main">More</a>
+          <a href="contactMe.html" target="_main">Contact Me</a>
+          <a href="contactMe.html" target="_main">Resume</a>
         </div>
-    </footer>
-</body>
 
+        <div class="footer-social">
+          <a
+            href="https://www.facebook.com/SansKar.jaiswal.2904"
+            target="_main"
+            title="Facebook"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a
+            href="https://twitter.com/_Sanskkkkar"
+            target="_main"
+            title="Twitter"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/sanskkkkar/?hl=en"
+            target="_main"
+            title="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/sanskkkkar/"
+            target="_main"
+            title="LinkedIn"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="contactMe.html" target="_main" title="Code"
+            ><i class="fas fa-code"></i
+          ></a>
+          <a
+            href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=sanskarjaiswal2904@gmail.com&tf=1"
+            target="_main"
+            title="Gmail"
+            ><i class="fas fa-envelope"></i
+          ></a>
+          <a
+            href="https://github.com/SanskarJaiswal2904"
+            target="_main"
+            title="GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="contactMe.html" target="_main" title="Resume"
+            ><i class="far fa-file-pdf"></i
+          ></a>
+        </div>
+
+        <div class="footer-text">
+          © 2024 Sanskar Jaiswal. All rights reserved.
+        </div>
+
+        <div class="footer-text">
+          <p>Total Visitors: <span id="counter">36</span></p>
+
+          <script>
+            // Load current count from local storage or set to 0 if not found
+            let count = parseInt(localStorage.getItem("counter")) || 36;
+
+            // Update the counter display
+            document.getElementById("counter").textContent = count;
+
+            // Increment the counter on each visit
+            count++;
+            localStorage.setItem("counter", count);
+          </script>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
