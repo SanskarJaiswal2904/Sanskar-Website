@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Redirecting</title>
+  <title>SansKar's Website</title>
   <link rel="icon" href="resOfWebsite/sanskarTitle.ico" type="image/x-icon" />
   <style>
     body {
@@ -25,19 +25,38 @@
       0% {
         background: linear-gradient(135deg, #9cd1f4 0%, #87b9e6 50%, #9cd1f4 100%);
       }
-      25% {
+      10% {
+        background: linear-gradient(135deg, #87b9e6 0%, #9cd1f4 50%, #87b9e6 100%);
+      }
+      20% {
+        background: linear-gradient(135deg, #9cd1f4 0%, #7a9cb5 50%, #9cd1f4 100%);
+      }
+      30% {
+        background: linear-gradient(135deg, #7a9cb5 0%, #87b9e6 50%, #7a9cb5 100%);
+      }
+      40% {
         background: linear-gradient(135deg, #87b9e6 0%, #9cd1f4 50%, #87b9e6 100%);
       }
       50% {
         background: linear-gradient(135deg, #9cd1f4 0%, #7a9cb5 50%, #9cd1f4 100%);
       }
-      75% {
+      60% {
         background: linear-gradient(135deg, #7a9cb5 0%, #9cd1f4 50%, #7a9cb5 100%);
+      }
+      70% {
+        background: linear-gradient(135deg, #9cd1f4 0%, #87b9e6 50%, #9cd1f4 100%);
+      }
+      80% {
+        background: linear-gradient(135deg, #87b9e6 0%, #9cd1f4 50%, #87b9e6 100%);
+      }
+      90% {
+        background: linear-gradient(135deg, #9cd1f4 0%, #7a9cb5 50%, #9cd1f4 100%);
       }
       100% {
         background: linear-gradient(135deg, #9cd1f4 0%, #87b9e6 50%, #9cd1f4 100%);
       }
     }
+
 
     h1 {
       font-size: 3rem;
@@ -140,9 +159,24 @@
         opacity: 0.6;
       }
     }
+
+    #timer {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 1.5rem;
+      color: #fff;
+      background: linear-gradient(45deg, #8f8e8e 0%, #6d6f70 50%, #262627 100%);
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
+
+  <div id="timer">Wait for 10 seconds</div>
+
   <h1 class="typewriter">
     <span class="first">Hi, my name is Sanskar.</span>
     <span class="rest">I am a full-stack web developer.</span>
@@ -156,6 +190,23 @@
   <div class="bubble"></div>
 
   <script>
+    const timerElement = document.getElementById('timer');
+    let countdown = 10;
+
+    const interval = setInterval(() => {
+      countdown--;
+      if (countdown === 1) {
+        timerElement.innerText = `Wait for ${countdown} second`;
+      }
+      if (countdown === 0) {
+        timerElement.innerText = "Redirecting...";
+        document.title = "Redirecting..."
+        clearInterval(interval);
+      } else {
+        timerElement.innerText = `Wait for ${countdown} seconds`;
+      }
+    }, 1230); 
+
     const spans = document.querySelectorAll('.typewriter span');
     let delay = 0;
 
