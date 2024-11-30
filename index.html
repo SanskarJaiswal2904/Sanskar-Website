@@ -5,175 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SansKar's Website</title>
   <link rel="icon" href="resOfWebsite/sanskarTitle.ico" type="image/x-icon" />
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100vh;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      background: linear-gradient(135deg, #9cd1f4 0%, #87b9e6 50%, #9cd1f4 100%);
-      font-family: 'Arial', sans-serif;
-      overflow: hidden;
-      padding-left: 5%;
-      animation: gradientChange 10s ease infinite;
-      transition: background 3s ease; /* Smoother transition for background change */
-    }
-
-    @keyframes gradientChange {
-      0% {
-        background: linear-gradient(135deg, #9cd1f4 0%, #87b9e6 50%, #9cd1f4 100%);
-      }
-      10% {
-        background: linear-gradient(135deg, #87b9e6 0%, #9cd1f4 50%, #87b9e6 100%);
-      }
-      20% {
-        background: linear-gradient(135deg, #9cd1f4 0%, #7a9cb5 50%, #9cd1f4 100%);
-      }
-      30% {
-        background: linear-gradient(135deg, #7a9cb5 0%, #87b9e6 50%, #7a9cb5 100%);
-      }
-      40% {
-        background: linear-gradient(135deg, #87b9e6 0%, #9cd1f4 50%, #87b9e6 100%);
-      }
-      50% {
-        background: linear-gradient(135deg, #9cd1f4 0%, #7a9cb5 50%, #9cd1f4 100%);
-      }
-      60% {
-        background: linear-gradient(135deg, #7a9cb5 0%, #9cd1f4 50%, #7a9cb5 100%);
-      }
-      70% {
-        background: linear-gradient(135deg, #9cd1f4 0%, #87b9e6 50%, #9cd1f4 100%);
-      }
-      80% {
-        background: linear-gradient(135deg, #87b9e6 0%, #9cd1f4 50%, #87b9e6 100%);
-      }
-      90% {
-        background: linear-gradient(135deg, #9cd1f4 0%, #7a9cb5 50%, #9cd1f4 100%);
-      }
-      100% {
-        background: linear-gradient(135deg, #9cd1f4 0%, #87b9e6 50%, #9cd1f4 100%);
-      }
-    }
-
-
-    h1 {
-      font-size: 3rem;
-      text-align: left;
-      color: #fff;
-      margin: 0;
-      line-height: 1.5;
-    }
-
-    .typewriter {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .typewriter span {
-      display: none;
-      animation: typing 2s steps(30, end), blink 0.2s step-end infinite;
-      white-space: nowrap;
-      overflow: hidden;
-      border-right: 0.25em solid #fff; /* Thicker cursor */
-      margin-bottom: 10px;
-    }
-
-    .typewriter span.visible {
-      display: block;
-    }
-
-    .typewriter span.first {
-      font-size: 4rem;
-      font-weight: bold;
-      color: yellow;
-    }
-
-    .typewriter span.rest {
-      font-size: 2rem;
-      color: white;
-    }
-
-    @keyframes typing {
-      from {
-        width: 0;
-      }
-      to {
-        width: 100%;
-      }
-    }
-
-    @keyframes blink {
-      50% {
-        border-color: transparent;
-      }
-    }
-
-    .bubble {
-      position: absolute;
-      background-color: rgba(255, 255, 255, 0.3);
-      border-radius: 50%;
-      pointer-events: none;
-      animation: float 6s infinite ease-in-out;
-    }
-
-    .bubble:nth-child(1) {
-      width: 80px;
-      height: 80px;
-      animation-duration: 5s;
-      animation-delay: 0.5s;
-      left: 20%;
-      top: 40%;
-    }
-
-    .bubble:nth-child(2) {
-      width: 120px;
-      height: 120px;
-      animation-duration: 7s;
-      animation-delay: 1.5s;
-      left: 50%;
-      top: 20%;
-    }
-
-    .bubble:nth-child(3) {
-      width: 60px;
-      height: 60px;
-      animation-duration: 4s;
-      animation-delay: 2s;
-      left: 80%;
-      top: 60%;
-    }
-
-    @keyframes float {
-      0% {
-        transform: translateY(0) scale(1);
-        opacity: 0.6;
-      }
-      50% {
-        transform: translateY(-50px) scale(1.1);
-        opacity: 1;
-      }
-      100% {
-        transform: translateY(0) scale(1);
-        opacity: 0.6;
-      }
-    }
-
-    #timer {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      font-size: 1.5rem;
-      color: #fff;
-      background: linear-gradient(45deg, #8f8e8e 0%, #6d6f70 50%, #262627 100%);
-      padding: 10px 20px;
-      border-radius: 8px;
-      font-weight: bold;
-    }
-  </style>
+  <link rel="stylesheet" href="/style/newstyle/style.css">
+ 
 </head>
 <body>
+
+  <div class="area">
+    <div class="circles">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</div>
 
   <div id="timer">Wait for 10 seconds</div>
 
