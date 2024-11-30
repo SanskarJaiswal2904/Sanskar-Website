@@ -5,3 +5,4 @@ This page is running on [Link](https://sanskarjaiswal2904.github.io/Sanskar-Webs
 Updates need to be made :-
 
 0. Add total count of visit via connecting it to mongodb
+1. add animation from left to right with fading for each subsection
